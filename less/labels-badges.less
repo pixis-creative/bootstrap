@@ -5,22 +5,22 @@
 .label,
 .badge {
   font-size: @baseFontSize * .846;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 14px; // ensure proper line-height if floated
   color: @white;
   vertical-align: baseline;
   white-space: nowrap;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  // text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   background-color: @grayLight;
 }
 // Set unique padding and border-radii
 .label {
-  padding: 1px 4px 2px;
+  padding: 1px 5px 2px;
   .border-radius(3px);
 }
 .badge {
-  padding: 1px 9px 2px;
-  .border-radius(9px);
+  padding: 1px 10px 2px;
+  .border-radius(10px);
 }
 
 // Hover state, but only for links
@@ -35,6 +35,7 @@ a {
 
 // Colors
 // Only give background-color difference to links (and to simplify, we don't qualifty with `a` but [href] attribute)
+/*
 .label,
 .badge {
   // Important (red)
@@ -53,3 +54,4 @@ a {
   &-inverse           { background-color: @grayDark; }
   &-inverse[href]     { background-color: darken(@grayDark, 10%); }
 }
+*/

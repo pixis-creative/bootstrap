@@ -12,15 +12,20 @@ table {
   background-color: @tableBackground;
   border-collapse: collapse;
   border-spacing: 0;
+  width:100%;
+  margin-bottom: @baseLineHeight;
+  th,td {
+    padding:8px;
+    line-height:@baseLineHeight;
+    text-align:left;
+    vertical-align:top;
+  }
 }
 
 // BASELINE STYLES
 // ---------------
 
 .table {
-  width: 100%;
-  margin-bottom: @baseLineHeight;
-  // Cells
   th,
   td {
     padding: 8px;
