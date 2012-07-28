@@ -112,9 +112,11 @@
     width: 100%;
   }
   // Undo negative margin on rows and thumbnails
-  .row,
+  .row { margin-left:0; }
   .thumbnails {
-    margin-left: 0;
+    margin: 0;
+    padding-left:0;
+    li { margin-left:0; }
   }
   // Make all grid-sized elements block level again
   [class*="span"],

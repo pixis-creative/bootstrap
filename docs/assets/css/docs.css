@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6 {
 }
   h1 {}
   h2 {}
-  h3 {}
+  h3 { margin-bottom:0; }
   h4 {}
   h5 {}
   h6 {}
@@ -51,6 +51,27 @@ ul.breadcrumb {
   }
 
 /* reuseable structure pieces */
+.carousel-caption {
+  background-color:rgba(0, 0, 0, 0.75);
+  border:1px solid #fff;
+  -webkit-border-radius:0.5em;
+  -moz-border-radius:0.5em;
+  -ms-border-radius:0.5em;
+  -o-border-radius:0.5em;
+  border-radius:0.5em;
+  bottom:10px;
+  left:10px;
+  padding:1em 1em 1px;
+  position:absolute;
+  right:10px;
+}
+.carousel-caption h4 {
+  color:#fff;
+}
+.carousel-caption p {
+  color:#fff;
+}
+
 div.grid-wrapper {
   padding:1px 0; /* override CSS behavior that makes margins extend outside the boundaries of a containing box. */
 }
