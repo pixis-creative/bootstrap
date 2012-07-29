@@ -33,6 +33,8 @@ Canopi.f = {};
 
 // page initialization
 Canopi.init = function() {
+  // remove the no-js flag from the page
+  $('html.no-js').removeClass('no-js');
   // apply tabbed behaviors to .tabbed-component elements.
   $('.tabbed-component').each(function() {
     var $local;
