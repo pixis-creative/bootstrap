@@ -2548,3 +2548,23 @@ a.badge:hover {
 .invisible {
   visibility: hidden;
 }
+.debug .container {
+  outline: 3px solid green;
+}
+.debug .row {
+  outline: 2px solid orange;
+}
+.debug .span1,
+.debug .span2,
+.debug .span3,
+.debug .span4,
+.debug .span5,
+.debug .span6,
+.debug .span7,
+.debug .span8,
+.debug .span9,
+.debug .span10,
+.debug .span11,
+.debug .span12 {
+  outline: 1px solid purple;
+}
